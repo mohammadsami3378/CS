@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* Style the header */
+h1 {
+    color: #333;
+}
+
+
+/* Style the input and button */
+label, input, button {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+/* Style the input field */
+input[type="number"] {
+    width: 200px;
+    border-color: #007bff;
+    border-radius: 6px;
+}
+
+
+
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+/* Style the button on hover */
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Style the result paragraph */
+p {
+    font-size: 20px;
+}
+
+
+/* Style the output span */
+#binaryOutput {
+    font-weight: bold;
+    color: green;
+}
+
+
+/* Style the error message */
+#binaryOutput:after {
+    content: "";
+    display: block;
+    color: red;
+    font-weight: normal;
+}

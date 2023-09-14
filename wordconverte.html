@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Count Tool</title>
+    <link ref="stylesheet" href="wo.css">
+</head>
+<body>
+    <h1>Word Count Tool</h1>
+    <label for="textInput">Enter text:</label>
+    <textarea id="textInput" rows="5" cols="40"></textarea>
+    <button onclick="countWords()">Count Words</button>
+    <p>Word count: <span id="wordCount">0</span></p>
+
+    <script>
+        function countWords() {
+            const textInput = document.getElementById("textInput").value;
+            const wordCount = document.getElementById("wordCount");
+            
+            if (textInput.trim() === "") {
+                wordCount.textContent = "0";
+            } else {
+                const words = textInput.split(/\s+/);
+                wordCount.textContent = words.length;
+            }
+        }
+    </script>
+</body>
+</html>

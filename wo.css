@@ -1,0 +1,54 @@
+/* Add styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the header */
+h1 {
+    color: #333;
+}
+
+/* Style the label and textarea */
+label, textarea {
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* Style the textarea */
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the button on hover */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the result paragraph */
+p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Style the word count span */
+#wordCount {
+    font-weight: bold;
+    color: green;
+}
